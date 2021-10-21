@@ -1,0 +1,95 @@
+.link {
+  stroke: black ;
+  stroke-width: 2px ;
+  opacity: 0.6 ;
+}
+
+.link:hover {
+  stroke: dodgerblue ;
+  stroke-width: 5px ;
+  opacity: 1 ;
+}
+
+.link text{
+  font: 12px sans-serif ;
+  font-weight: normal ;
+  opacity: 0 ;
+}
+
+.link:hover text{
+  font: 12px sans-serif ;
+  font-weight: bold ;
+  stroke-width: 0px ;
+  fill: #505050  ;
+  opacity: 1 ;
+}
+
+
+
+
+.node {
+  opacity: 0.9;
+  fill: #505050 ;
+  stroke: white ;
+  stroke-width: 4px ;
+}
+
+.node:hover {
+  opacity: 1;
+  fill: #505050 ;
+  stroke: black ;
+  stroke-width: 4px ;
+  cursor: pointer ;
+}
+
+.node .nodetext{
+  font: 12px sans-serif ;
+  font-weight: normal ;
+  stroke-width: 0px ;
+  opacity: 0.5 ;
+}
+
+.node:hover .nodetext{
+  font: 16px sans-serif ;
+  font-weight: bold ;
+  stroke-width: 0px ;
+  opacity: 1 ;
+}
+
+.node.fixed  text{
+  font-weight: bold ;
+  opacity: 1 ;
+}
+
+
+.nodeInnerColour_legend .legend_title {
+  font: 16px sans-serif ;
+  font-weight: bold ;
+}
+
+.nodeInnerColour_legend .legend_items {
+  font: 12px sans-serif ;
+  font-weight: normal ;
+}
+
+.nodeInnerColour_legend .legend_items  rect{
+  stroke: #505050 ;
+  stroke-width: 0.5px ;
+}
+
+
+
+.nodeOuterColour_legend .legend_title {
+  font: 16px sans-serif ;
+  font-weight: bold ;
+}
+
+.nodeOuterColour_legend .legend_items {
+  font: 12px sans-serif ;
+  font-weight: normal ;
+}
+
+.nodeOuterColour_legend .legend_items  rect{
+  stroke: #505050 ;
+  stroke-width: 0.5px ;
+}
